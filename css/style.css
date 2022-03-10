@@ -1,0 +1,623 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* ************************* 
+**** Scholership PSD to HTML code *****
+************************* */
+/**** Head Section Start *****/
+.head-section{
+    width: 100%;
+}
+.head-section .bg-light {
+    background-color: transparent !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #454545;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 20px 0px 0px;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #F0A721;
+  }
+  .dropdown-item{
+      font-size: 14px;
+  }
+  .dropdown-item:hover{
+    color: #F0A721;
+  }
+/**** Head Section End *****/
+
+/**** Banner Section Start *****/
+.banner-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner-section .left-part{
+    width: 100%;
+    text-align: center;
+}
+.banner-section .right-part{
+    width: 100%; 
+}
+.banner-section .right-part h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+.banner-section .right-part h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #F0A721;
+}
+.banner-section .right-part p{
+    font-size: 16px;
+    color: black;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+.banner-section .right-part .btn-warning{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F6A721;
+    border-radius: 25px;
+    padding: 6px 25px;
+    transition: 1s;
+}
+.banner-section .right-part .btn-warning:hover{
+    color: #F6A721;
+    background-color: #fff;
+}
+/**** Banner Section End *****/
+
+/**** country-section  Start *****/
+.country-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.country-section h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.country-section img{
+    width: 100%;
+    border: 1px solid #151515;
+}
+.country-section h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F0A721;
+    text-align: center;
+    margin-top: 10px;
+}
+/**** country-section End *****/
+
+/**** Feature Section Start *****/
+.feature-section{
+    width: 100%;
+    padding: 40px 0px; 
+    text-align: center;   
+}
+.feature-section .fa{
+    font-size: 40px;
+    font-weight: 600;
+    color: #F0A721;
+    margin-bottom: 15px;
+}
+/**** Feature Section End *****/
+
+/**** Opportunities Section Start *****/
+.opportunities-section{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.opportunities-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.opportunities-section .inner-opportunities{
+    width: 100%;
+    text-align: center;
+}
+.opportunities-section .fa{
+    font-size: 48px;
+    color: #fff;
+    background-color: #F0A721;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+.opportunities-section p{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+/**** Opportunities Section End *****/
+
+/**** Find Section Start *****/
+.find-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.find-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.find-section .social-icons{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.find-section .social-icons .fa-facebook{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #3A5898;
+    color: #fff;
+}
+.find-section .social-icons .fa-twitter{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #1CA0F2;
+    color: #fff;
+}
+.find-section .social-icons .fa-youtube{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #cc201e;
+    color: #fff;
+}
+.find-section .social-icons .fa-instagram{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #262626;
+    color: #fff;
+}
+/**** Find Section End *****/
+
+/***** Footer Section Start *****/
+.footer-widget{
+    width: 100%;
+    padding: 20px 0px 0px;
+    background-color: #222222;
+}
+.footer-widget .inner-footer{
+    width: 100%;
+    
+}
+.footer-widget .inner-footer img{
+    margin: 20px 0px;
+}
+.footer-widget .inner-footer p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #454545;
+}
+.footer-widget .inner-footer h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F0A721;
+    margin: 20px 0px;
+}
+.footer-widget .inner-footer .social-icons{
+    width: 100%;
+    text-align: left;
+}
+.footer-widget .inner-footer .social-icons .fa{
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    border: 1px solid #454545;
+    text-align: center;
+}
+.footer-widget .inner-footer h4{
+    color: #F0A721;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-widget .inner-footer h4 span{
+    color: #fff;
+}
+.footer-widget .inner-footer .mail-box{
+    border: 1px solid #454545;
+    padding: 3px 5px;
+    text-align: right;
+}
+.footer-widget .inner-footer .mail-box .btn{
+    background-color: #323244;
+    color: #fff;
+    border: 1px solid #454545;
+    font-size: 14px;
+    padding: 2px 14px;
+    transition: 1s;
+}
+.footer-widget .inner-footer .btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #454545;
+}
+.footer-widget .inner-footer ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-widget .inner-footer ul li{
+    color: #fff;
+    padding: 8px 0px;
+    border-top: 1px solid #fff;
+    
+}
+.footer-widget .inner-footer ul li:last-child{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    
+}
+/****** Footer Section End ******/
+
+/* Footer Section Start */
+.footer-section{
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+}
+.footer-section p{
+    color: #454545;
+    padding-top: 10px;
+}
+.footer-section ul{
+    list-style: none;
+    padding-top: 10px;
+    text-align: right;
+}
+.footer-section ul li{
+    font-size: 12px;
+    color: #fff;
+    display: inline;
+    padding: 0px 10px 0px 6px;
+    border-right: 1px solid #454545;
+}
+.footer-section ul li:last-child{
+    border-right: none;
+}
+/* Footer Section End
+============================================================================
+/* Multipage1 Codes */
+/* ============================================================================ */ */
+.topscholarship-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.topscholarship-section .left-part{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+.topscholarship-section .left-part img{
+    width: 100%;
+}
+.topscholarship-section .right-part{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.topscholarship-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.topscholarship-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.topscholarship-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.topscholarship-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* topscholoarship section end */
+
+/* iuu-section start */
+.iuu-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.iuu-section .left-part{
+    width: 100%;
+    text-align: right;
+}
+.iuu-section .left-part img{
+    width: 100%;
+}
+.iuu-section .right-part{
+    width: 100%;
+    margin-left: 15px;
+}
+.iuu-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.iuu-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.iuu-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.iuu-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* iuu-section end */
+
+/* global-section start */
+.global-sectionn{
+    width: 100%;
+    padding: 80px 0px;
+    margin-bottom: 50px;
+}
+.global-section .left-part{
+    width: 100%;
+    text-align: right;
+}
+.global-section .left-part img{
+    width: 100%;
+}
+.global-section .right-part{
+    width: 100%;
+    margin-left: 15px;
+}
+.global-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.global-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.global-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.global-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* iuu-section end */
+
+/* ============================================================================ */
+/* Multipage2 Codes */
+/* ============================================================================ */
+.list-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.list-section .left-part{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+.list-section .left-part img{
+    width: 100%;
+}
+.list-section .right-part{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.list-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.list-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.list-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.list-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* list section end */
+
+/* iuu-section start */
+.ajk-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.ajk-section .left-part{
+    width: 100%;
+    text-align: right;
+}
+.ajk-section .left-part img{
+    width: 100%;
+}
+.ajk-section .right-part{
+    width: 100%;
+    margin-left: 15px;
+}
+.ajk-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.ajk-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.ajk-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.ajk-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* ajk-section end */
+
+/* hec-section start */
+.hec-section{
+    width: 100%;
+    padding: 80px 0px;
+    margin-bottom: 50px;
+}
+.hec-section .left-part{
+    width: 100%;
+    text-align: right;
+}
+.hec-section .left-part img{
+    width: 100%;
+}
+.hec-section .right-part{
+    width: 100%;
+    margin-left: 15px;
+}
+.hec-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.hec-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.hec-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.hec-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* hec-section end */
+
+
+/* ehsaas-section start */
+.ehsaas-section{
+    width: 100%;
+    padding: 80px 0px;
+    margin-bottom: 50px;
+}
+.ehsaas-section .left-part{
+    width: 100%;
+    text-align: right;
+}
+.ehsaas-section .left-part img{
+    width: 100%;
+}
+.ehsaas-section .right-part{
+    width: 100%;
+    margin-left: 15px;
+}
+.ehsaas-section .right-part h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F0A721;
+    padding-top: 30px;
+}
+.ehsaas-section .right-part h4 span{
+    font-size: 14px;
+    color: #151515;
+}
+.ehsaas-section .right-part h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0A721;
+}
+.ehsaas-section .right-part p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #151515;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* ehsaas-section end */
